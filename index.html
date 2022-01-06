@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xe tank</title>
+</head>
+<body>
+    <!-- Tạo battle -->
+    <div id="battle" style="border: 1px solid black; width: 190px; height: 190px;">
+    
+    <!-- Tạo xe tank -->
+        <img src="https://s3.ap-southeast-1.amazonaws.com/learn.codegym.vn/media/public/2020/12/02171059/tank.png" alt="Đây là xe tank"
+        style="position: relative; top:0px; left: 0px;
+        width: 19px; height: 19px;" id="tank">
+    </div>
+    <!-- Tạo nút bấm -->
+    <button type="button" onclick="up_tank()" value="up" style="position: absolute; top: 209px; left: 85px;">&#8593;</button>
+    <button type="button" onclick="left_tank()" value="left" style="position: absolute; top: 247px; left: 47px;">&#8592;</button>
+    <button type="button" onclick="right_tank()" value="right" style="position: absolute; top: 247px; left: 123px;">&#8594;</button>
+    <button type="button" onclick="down_tank()" value="down" style="position: absolute; top: 285px; left: 85px;">&#8595;</button>
+</body>
+</html>
+<script src="tank.js"></script>
